@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | DigiClo</title>
+    <meta name="description" content="Get in touch with DigiClo for any inquiries or support." />
+    <link rel="stylesheet" href="css/style.css" />
+   
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="assets/logo.png" alt="DigiClo Logo" /></a>
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li class="nav"><a href="index.html">Home</a></li>
+                <li class="nav"><a href="shop.html">Shop</a></li>
+                <li class="nav"><a href="about.html">About Us</a></li>
+                <li class="nav"><a href="contact.html">Contact Us</a></li>
+                <li class="nav"><a href="cart.html">Cart</a></li>
+                <li class="nav"><a href="checkout.html">Checkout</a></li>
+                <li class="nav"><a href="account.html">My Account</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact">
+            <h1>Contact Us</h1>
+            <p>If you have any questions or need assistance, feel free to reach out to us using the form below or through our contact information.</p>
+
+            <form id="contact-form" action="submit_contact.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required />
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                <p><strong>Email:</strong> support@digiclo.com</p>
+                <p><strong>Phone:</strong> +977 9812345670</p>
+                <p><strong>Address:</strong> 123 DigiClo St, eCommerce City, SK 12345</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 DigiClo. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
